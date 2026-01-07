@@ -63,4 +63,18 @@ if (marks >= 90) {
 
 ```
 
-***Write a Loop that sums all numbers between 5 (inklusive) and 10(inklusive)**
+**6 Write a Loop that sums all numbers between 5 (inklusive) and 10(inklusive)**
+
+**7 Finish the Code**
+
+
+Wenn der Altersunterschied größer als 50 Jahre ist dann schreibe hin Oma, wenn er zwischen 20 und 49 Jahren ist dann scheibe hin Mama ansonsten Schwester
+
+```js
+
+let age1 = 9;
+let age2 = 90;
+
+
+
+```
