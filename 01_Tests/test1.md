@@ -1,7 +1,4 @@
 
-
-## Reading
-
 **1 What will be printed by the following code?**
 
 ```js
@@ -47,3 +44,23 @@ if (number % 2 === 0) {
   console.log("Odd");
 }
 ```
+
+**5 What will be printed?**
+```js
+let marks = 65;
+
+if (marks >= 90) {
+  console.log("A");
+} else if (marks >= 80) {
+  console.log("B");
+} else if (marks >= 70) {
+  console.log("C");
+} else if (marks >= 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
+
+```
+
+***Write a Loop that sums all numbers between 5 (inklusive) and 10(inklusive)**
