@@ -1,4 +1,4 @@
 export interface Actor {
-  move(delta: number): void;
+  update(deltaTime: number): void;
   render(ctx: CanvasRenderingContext2D): void;
 }
