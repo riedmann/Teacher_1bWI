@@ -1,4 +1,4 @@
-import { Node } from "./Node.ts";
+import { Node } from "../Node.ts";
 
 export class List {
   private head: Node | null;
