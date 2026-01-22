@@ -1,4 +1,3 @@
-import { ArrayList } from "./ArrayList.ts";
 import { LinkedList } from "./LinkedList.ts";
 import { List } from "./List.ts";
 

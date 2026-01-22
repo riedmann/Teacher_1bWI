@@ -1,25 +1,21 @@
 // MyGame - Example implementation of Game interface
 
 class MyGame extends Game {
-  x = 50;
-  y = 0;
-
   init() {
     console.log("Game started!");
   }
 
-  update(deltaTime) {
-    this.x += 100 * deltaTime;
-    this.y += 50 * deltaTime;
-    console.log(deltaTime);
-  }
+  update(deltaTime) {}
 
   render(ctx) {
-    ctx.fillStyle = "#FF66aa";
-    ctx.fillRect(this.x, this.y, 50, 50);
-    ctx.beginPath();
-    ctx.ellipse(100 + this.x, 100, 50, 75, Math.PI / 4, 0, 2 * Math.PI);
-    ctx.stroke();
+    // ctx.fillStyle = "#FF66aa";
+    // ctx.arc(100, 100, 20, 0, 2 * Math.PI);
+    // ctx.stroke();
+    // ctx.fillRect(this.x, this.y, 50, 50);
+    // ctx.strokeRect(200, 200, 100, 100);
+    // ctx.font = "48px serif";
+    // ctx.fillText("Hello world", 10, 50);
+    // ctx.fill();
   }
 }
 
