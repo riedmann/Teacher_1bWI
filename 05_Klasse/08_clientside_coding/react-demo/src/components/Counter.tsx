@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { start } from "repl";
 
 type Props = {
   startValue: number;
@@ -7,7 +6,6 @@ type Props = {
 
 export default function Counter({ startValue }: Props) {
   const [count, setCount] = useState(startValue);
-  startValue = 20;
 
   useEffect(() => {
     console.log("CStaret value changed", startValue);
